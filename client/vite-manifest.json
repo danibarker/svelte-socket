@@ -1,11 +1,11 @@
 {
-  "src/lib/images/github.svg": {
-    "file": "_app/immutable/assets/github-1ea8d62e.svg",
-    "src": "src/lib/images/github.svg"
-  },
   "src/lib/images/svelte-logo.svg": {
     "file": "_app/immutable/assets/svelte-logo-87df40b8.svg",
     "src": "src/lib/images/svelte-logo.svg"
+  },
+  "src/lib/images/github.svg": {
+    "file": "_app/immutable/assets/github-1ea8d62e.svg",
+    "src": "src/lib/images/github.svg"
   },
   "node_modules/@fontsource/fira-mono/files/fira-mono-cyrillic-400-normal.woff2": {
     "file": "_app/immutable/assets/fira-mono-cyrillic-400-normal-c7d433fd.woff2",
@@ -19,6 +19,10 @@
     "file": "_app/immutable/assets/fira-mono-greek-400-normal-a8be01ce.woff2",
     "src": "node_modules/@fontsource/fira-mono/files/fira-mono-greek-400-normal.woff2"
   },
+  "node_modules/@fontsource/fira-mono/files/fira-mono-latin-ext-400-normal.woff2": {
+    "file": "_app/immutable/assets/fira-mono-latin-ext-400-normal-6bfabd30.woff2",
+    "src": "node_modules/@fontsource/fira-mono/files/fira-mono-latin-ext-400-normal.woff2"
+  },
   "node_modules/@fontsource/fira-mono/files/fira-mono-greek-ext-400-normal.woff2": {
     "file": "_app/immutable/assets/fira-mono-greek-ext-400-normal-9e2fe623.woff2",
     "src": "node_modules/@fontsource/fira-mono/files/fira-mono-greek-ext-400-normal.woff2"
@@ -27,21 +31,17 @@
     "file": "_app/immutable/assets/fira-mono-latin-400-normal-e43b3538.woff2",
     "src": "node_modules/@fontsource/fira-mono/files/fira-mono-latin-400-normal.woff2"
   },
-  "node_modules/@fontsource/fira-mono/files/fira-mono-latin-ext-400-normal.woff2": {
-    "file": "_app/immutable/assets/fira-mono-latin-ext-400-normal-6bfabd30.woff2",
-    "src": "node_modules/@fontsource/fira-mono/files/fira-mono-latin-ext-400-normal.woff2"
-  },
   "node_modules/@fontsource/fira-mono/files/fira-mono-all-400-normal.woff": {
     "file": "_app/immutable/assets/fira-mono-all-400-normal-1e3b098c.woff",
     "src": "node_modules/@fontsource/fira-mono/files/fira-mono-all-400-normal.woff"
   },
   "node_modules/@sveltejs/kit/src/runtime/client/start.js": {
-    "file": "_app/immutable/start-1fca611b.js",
+    "file": "_app/immutable/start-d48e45e3.js",
     "src": "node_modules/@sveltejs/kit/src/runtime/client/start.js",
     "isEntry": true,
     "imports": [
       "_index-25767c28.js",
-      "_singletons-2ba93ed0.js"
+      "_singletons-f8e4ee4c.js"
     ],
     "dynamicImports": [
       ".svelte-kit/generated/nodes/0.js",
@@ -53,12 +53,12 @@
     ]
   },
   "src/routes/+layout.svelte": {
-    "file": "_app/immutable/components/pages/_layout.svelte-7e57f498.js",
+    "file": "_app/immutable/components/pages/_layout.svelte-53543463.js",
     "src": "src/routes/+layout.svelte",
     "isEntry": true,
     "imports": [
       "_index-25767c28.js",
-      "_stores-724c6b3d.js"
+      "_stores-63650470.js"
     ],
     "css": [
       "_app/immutable/assets/_layout-58b7efb3.css"
@@ -76,12 +76,12 @@
     ]
   },
   "node_modules/@sveltejs/kit/src/runtime/components/error.svelte": {
-    "file": "_app/immutable/components/error.svelte-ba271145.js",
+    "file": "_app/immutable/components/error.svelte-7d7c4508.js",
     "src": "node_modules/@sveltejs/kit/src/runtime/components/error.svelte",
     "isEntry": true,
     "imports": [
       "_index-25767c28.js",
-      "_stores-724c6b3d.js"
+      "_stores-63650470.js"
     ]
   },
   "src/routes/+page.svelte": {
@@ -101,12 +101,12 @@
     ]
   },
   "src/routes/sverdle/+page.svelte": {
-    "file": "_app/immutable/components/pages/sverdle/_page.svelte-89ceb888.js",
+    "file": "_app/immutable/components/pages/sverdle/_page.svelte-8c80d4b0.js",
     "src": "src/routes/sverdle/+page.svelte",
     "isEntry": true,
     "imports": [
       "_index-25767c28.js",
-      "_singletons-2ba93ed0.js"
+      "_singletons-f8e4ee4c.js"
     ],
     "css": [
       "_app/immutable/assets/_page-b7948a4c.css"
@@ -149,8 +149,8 @@
       "__page-ed48c4a3.js"
     ]
   },
-  "_singletons-2ba93ed0.js": {
-    "file": "_app/immutable/chunks/singletons-2ba93ed0.js",
+  "_singletons-f8e4ee4c.js": {
+    "file": "_app/immutable/chunks/singletons-f8e4ee4c.js",
     "imports": [
       "_index-25767c28.js"
     ]
@@ -158,11 +158,11 @@
   "_index-25767c28.js": {
     "file": "_app/immutable/chunks/index-25767c28.js"
   },
-  "_stores-724c6b3d.js": {
-    "file": "_app/immutable/chunks/stores-724c6b3d.js",
+  "_stores-63650470.js": {
+    "file": "_app/immutable/chunks/stores-63650470.js",
     "imports": [
       "_index-25767c28.js",
-      "_singletons-2ba93ed0.js"
+      "_singletons-f8e4ee4c.js"
     ]
   },
   "__page-0df15927.js": {
@@ -184,7 +184,7 @@
     ]
   },
   ".svelte-kit/generated/nodes/0.js": {
-    "file": "_app/immutable/chunks/0-74f343c7.js",
+    "file": "_app/immutable/chunks/0-40102e10.js",
     "src": ".svelte-kit/generated/nodes/0.js",
     "isDynamicEntry": true,
     "imports": [
@@ -192,7 +192,7 @@
     ]
   },
   ".svelte-kit/generated/nodes/1.js": {
-    "file": "_app/immutable/chunks/1-02567f5f.js",
+    "file": "_app/immutable/chunks/1-85266a94.js",
     "src": ".svelte-kit/generated/nodes/1.js",
     "isDynamicEntry": true,
     "imports": [
@@ -218,7 +218,7 @@
     ]
   },
   ".svelte-kit/generated/nodes/4.js": {
-    "file": "_app/immutable/chunks/4-1c154e98.js",
+    "file": "_app/immutable/chunks/4-4d6230e3.js",
     "src": ".svelte-kit/generated/nodes/4.js",
     "isDynamicEntry": true,
     "imports": [
@@ -234,6 +234,10 @@
       "src/routes/sverdle/how-to-play/+page.svelte"
     ]
   },
+  "src/routes/sverdle/+page.css": {
+    "file": "_app/immutable/assets/_page-b7948a4c.css",
+    "src": "src/routes/sverdle/+page.css"
+  },
   "src/routes/sverdle/how-to-play/+page.css": {
     "file": "_app/immutable/assets/_page-adbe83f1.css",
     "src": "src/routes/sverdle/how-to-play/+page.css"
@@ -241,9 +245,5 @@
   "src/routes/+layout.css": {
     "file": "_app/immutable/assets/_layout-58b7efb3.css",
     "src": "src/routes/+layout.css"
-  },
-  "src/routes/sverdle/+page.css": {
-    "file": "_app/immutable/assets/_page-b7948a4c.css",
-    "src": "src/routes/sverdle/+page.css"
   }
 }
